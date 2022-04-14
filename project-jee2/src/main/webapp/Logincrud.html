@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<!--entree du document-->
+
+<head>
+    <title>Logincrud</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+</head>
+
+<body >
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Links -->
+        <a class="navbar-brand" href="home">Gestion-RH</a>
+      
+    </nav>
+    <div class="container" style="border:solid;border-radius: 30px;border-color: grey;margin : 20% auto;padding:30px 0px 30px 100px ;" >
+    
+        <form action="User" method="post">
+            <div class="form-row ">
+                <div class="col-6 col-sm-5 form-group">
+                    <label>login</label>
+                    <input type="text" class="form-control" placeholder="identifiant" name="username">
+                </div>
+                <div class="col-6 col-sm-6 form-group">
+                
+                    <label>mot de passe</label>
+                    <input type="password" class="form-control" placeholder="mot de passe" name="password">
+                </div>
+
+            </div>
+            <button type="submit" class="btn btn-primary">Se connecter</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
